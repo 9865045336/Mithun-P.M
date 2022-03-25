@@ -1,21 +1,23 @@
-body {
+body{
+    background-position: center;
     background-size: cover;
 }
-.heading {
+.heading{
     width: 100%;
-    margin: 0;
-    font-size: 20px;
+    margin: 0px;
+    font-size: large;
 }
-.note {
-    font-size: 15px;
+p{
     color: black;
+    margin-bottom: 0px;
+    font-size: small;
 }
-.song_name {
-    font-size: 20px;
+.object_name{
+    font-size: 15px;
+    font-weight: bold;
 }
-canvas {
-    background-color: #000000;
-    border: 5px solid white;
-    border-radius: 20px;
-    box-shadow: 5px 5px 5px #73cfd8;
+canvas{
+    border-radius: 10px;
+    box-shadow: 7px 7px 7px white;
+    background-color: red;
 }
